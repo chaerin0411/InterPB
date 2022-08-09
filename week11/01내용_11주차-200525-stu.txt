@@ -1,0 +1,59 @@
+-인터넷기초실습_YA: (11주차 실습 내용)
+-------------------------------------
+-- fontawesome
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<i class="fa fa-bicycle" aria-hidden="true"></i>
+-------------------------------------
+
+-------------------------------------
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cards Flexbox</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/pr10-01-flex.css">
+</head>
+-------------------------------------
+<!-- quiz11-02-form-01-stu.html -->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>수습 기자 모집</title>
+<style>
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+    <h1>수습 기자 모집</h1>
+    <form>
+
+   개인정보
+   이름
+   학번
+지원 분야
+                아나운서 : 학내 소식을 라디오 방송으로 보도
+                프로듀서: 라디오 방송 기획 및 제작
+                엔지니어 : 라디오 방송 녹음 및 편집
+
+지원 동기
+"학내 언론사 지원 동기에 대해 간략히 써 주세요."
+    </form>
+    <div id="container">
+        <input type="submit" value="접수하기"> 
+        <input type="reset" value="다시 쓰기">
+    </div>
+</div> <!-- wrapper -->
+
+</body>
+</html>
+-------------------------------------
+
+
+-------------------------------------

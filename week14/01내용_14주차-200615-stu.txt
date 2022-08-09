@@ -1,0 +1,42 @@
+-인터넷기초실습_YA: (14주차 실습 내용)
+-------------------------------------
+-- fontawesome 4.6
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<i class="fa fa-bicycle" aria-hidden="true"></i>
+-------------------------------------
+-- fontawesome 4.6
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+<script src="https://use.fontawesome.com/926fe18a63.js"></script>
+
+생략
+
+  <span class="fa fa-bar-chart icon"></span>
+  <span class="fa fa-chevron-right"></span>
+  <span class="fa fa-gears icon"></span>
+-------------------------------------
+-- fontawesome 5.8
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+
+<style>
+   span.fas  { font-size: 30px; color: #00ff00; } 
+   .fas { font-size: 20px; color: #0000ff; } 
+</style>
+
+<body>
+ <p>내용</p><span><i class="fas fa-laptop"></span></i>
+</body>
+-------------------------------------
+
+
+-------------------------------------

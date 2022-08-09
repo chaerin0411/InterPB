@@ -1,0 +1,35 @@
+<!-- quiz11-01-form-01-stu.html -->
+<!DOCTYPE html>
+<HTML>
+<head>
+<title>quiz11-01(form)</title>
+<meta charset="UTF-8">
+<style>
+/*
+    ul {
+        list-style-type: none;
+    }
+*/
+    #personal { list-style-type: none; }
+</style>
+</head>
+<body>
+  <h3>개인 정보</h3>
+<!-- 폼 시작   -->
+  <form method="post">
+      <ul id="personal"> 
+          <li><label for="uname">이름</label>
+            <input type="text" id="uname" name="username" size="14"  placeholder="공백없이 입력하세요" autofocus> 
+          </li>
+          <li><label for="pwd">비밀번호</label>
+            <input type="password" id="pwd" name="passwd" size="10" maxlength="20">(수정시 필요)
+          </li>
+          <li>
+            <input type="submit" value="확인">
+            <input type="reset" value="취소">
+          </li>
+      </ul>  
+  </form>
+<!--  폼 끝 -->
+</body>
+</HTML>

@@ -1,0 +1,45 @@
+!-- ex04-09-03.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        h3, li {
+            color: brown;
+        }
+        .rule {
+            color: red;
+        }
+        body.main {
+            backgrond-color: aliceblue;
+        }
+        #list {
+            background-color: mistyrose;
+        }
+        div>div>strong {
+            background-color: yellow;
+        }
+        ul strong {
+            color: dodgerblue;
+        }
+        li:hover {background-color: yellowgreen;}
+        h3::first-letter {color: red;}
+    </style>
+</head>
+<body class="main">
+    <h3>Web Programming</h3>
+    <hr>
+    <div>
+        <div>인터넷기초실습&nbsp;<strong>학습 내용</strong>입니다</div>
+    </div>
+    <ul id="list">
+        <li>HTML5</li>
+        <li><strong>CSS3</strong></li>
+        <li>javascript</li>
+    </ul>
+    <div class="rule">
+        &bigstar;&nbsp;웹 표준 준수하고 웹 접근성 고려하기
+    </div>
+</body>
+</html>

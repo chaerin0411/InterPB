@@ -1,0 +1,76 @@
+<!-- pr14-01_translate_imgmove.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>translate: imagemove</title>
+<style>
+    * { margin:0; padding:0; }
+    li { list-style:none; }
+
+    section{ width:1025px; margin:0 auto; }
+    h2 { width:100%; text-align:center; font-size:30px; padding:20px 0; 
+        text-transform:uppercase; }
+
+    ul { width:920px; height:610px; margin:0 auto; position:relative; }
+    li { width:300px; height:300px; overflow:hidden; position:absolute;                  transform:scale(1); transition:all 1s ease-in .2s;}
+
+    .s01{ left:0; top:0; }
+    .s02{ left:310px; top:0; }
+    .s03{ left:620px; top:0; }
+    .s04{ left:0; top:310px; }
+    .s05{ left:310px; top:310px; }
+    .s06{ left:620px; top:310px; }
+
+    li a{ display:block; width:100%; height:100%; }
+    li img{ height:100%; }
+
+    li:hover{ background-color:#fff; border:3px solid #fff; 
+              box-shadow:3px 3px 5px rgba(0,0,0,0.5); z-index:1; }
+
+    .s01:hover{ transform:scale(1.5) translate(200px,100px); }
+    .s02:hover{ transform:scale(1.5) translate(0,100px); }
+    .s03:hover{ transform:scale(1.5) translate(-200px,100px); }
+    .s04:hover{ transform:scale(1.5) translate(200px,-100px); }
+    .s05:hover{ transform:scale(1.5) translate(0,-100px); }
+    .s06:hover{ transform:scale(1.5) translate(-200px,-100px); }
+</style>
+</head>
+<body>
+    <section>
+        <h2>translate: imagemove</h2>
+        <ul>
+            <li class="s01">
+                <a href="#none" title="이미지링크0">
+                    <img src="./img/img_translate/img0.jpg" alt="이미지0"/>
+                </a>
+            </li>
+            <li class="s02">
+                <a href="#none" title="이미지링크1">
+                    <img src="./img/img_translate/img1.jpg" alt="이미지1"/>
+                </a>
+            </li>
+            <li class="s03">
+                <a href="#none" title="이미지링크2">
+                    <img src="./img/img_translate/img2.jpg" alt="이미지2"/>
+                </a>
+            </li>
+            <li class="s04">
+                <a href="#none" title="이미지링크3">
+                    <img src="./img/img_translate/img3.jpg" alt="이미지3"/>
+                </a>
+            </li>
+            <li class="s05">
+                <a href="#none" title="이미지링크4">
+                    <img src="./img/img_translate/img4.jpg" alt="이미지4"/>
+                </a>
+            </li>
+            <li class="s06">
+                <a href="#none" title="이미지링크5">
+                    <img src="./img/img_translate/img5.jpg" alt="이미지5"/>
+                </a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>

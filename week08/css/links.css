@@ -1,0 +1,28 @@
+/* links.css */
+<style>
+        a {
+            font-size: 20px;
+        }
+        a:link, a:visited {
+            background-color: hotpink;
+            color: white;
+            padding: 12px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            opacity: 0.5;
+        }
+        a:hover {
+            background-color: red;
+        }
+        a:active {
+            background-color: forestgreen;
+        }
+        .btn:hover {
+            padding: 15px 25px;
+            color: red;
+            background-color: chartreuse;
+            border-radius: 20px;
+            opacity: 1;
+        }
+</style>
